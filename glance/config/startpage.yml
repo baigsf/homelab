@@ -1,0 +1,49 @@
+- name: Startpage
+  width: slim
+  hide-desktop-navigation: false
+  center-vertically: true
+  columns:
+    - size: full
+      widgets:
+        - type: search
+          autofocus: true
+
+        - type: monitor
+          cache: 1m
+          title: Services
+          sites:
+            #  - title: Jellyfin
+            #   url: http://192.168.4.165:8096
+            #  icon: si:jellyfin
+            - title: NextDNS
+              url: https://nextdns.io
+              icon: si:nextdns
+
+        - type: bookmarks
+          groups:
+            - title: General
+              links:
+                - title: Gmail
+                  url: https://mail.google.com/mail/u/0/
+                - title: Proton
+                  url: https://proton.me
+                - title: Github
+                  url: https://github.com/
+                - title: T3Chat
+                  url: https://t3.chat
+                - title: Unifi
+                  url: https://unifi.ui.com
+            - title: Entertainment
+              links:
+                - title: YouTube
+                  url: https://www.youtube.com/
+                - title: Prime Video
+                  url: https://www.primevideo.com/
+                - title: Netflix
+                  url: https://www.netflix.com/
+            - title: Social
+              links:
+                - title: Twitter
+                  url: https://twitter.com/
+                - title: Instagram
+                  url: https://www.instagram.com/
