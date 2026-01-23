@@ -12,9 +12,6 @@
           cache: 1m
           title: Services
           sites:
-            #  - title: Jellyfin
-            #   url: http://192.168.4.165:8096
-            #  icon: si:jellyfin
             - title: NextDNS
               url: https://nextdns.io
               icon: si:nextdns
