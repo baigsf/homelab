@@ -8,14 +8,6 @@
         - type: search
           autofocus: true
 
-        - type: monitor
-          cache: 1m
-          title: Services
-          sites:
-            - title: NextDNS
-              url: https://nextdns.io
-              icon: si:nextdns
-
         - type: bookmarks
           groups:
             - title: General
