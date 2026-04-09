@@ -20,8 +20,16 @@
                   url: https://github.com/
                 - title: T3Chat
                   url: https://t3.chat
+            - title: Homelab
+              links:
                 - title: Unifi
                   url: https://unifi.ui.com
+                - title: Tailscale
+                  url: https://login.tailscale.com
+                - title: Uptime Kuma
+                  url: http://uptime.albionlabs.net
+                - title: NextDNS
+                  url: https://my.nextdns.io
             - title: Entertainment
               links:
                 - title: YouTube
