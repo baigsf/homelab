@@ -1,4 +1,4 @@
-# Homelab
+# Albion Labs
 
 A personal homelab setup for self-hosting services and improving privacy/security.
 
