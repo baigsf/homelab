@@ -6,7 +6,7 @@
     - size: full
       widgets:
         - type: search
-          autofocus: true
+          autofocus: false
 
         - type: bookmarks
           groups:
@@ -38,6 +38,10 @@
                   url: https://www.primevideo.com/
                 - title: Netflix
                   url: https://www.netflix.com/
+                - title: F1
+                  url: https://f1tv.formula1.com/
+                - title: TV
+                  url: https://thetvapp.to/
             - title: Social
               links:
                 - title: Twitter

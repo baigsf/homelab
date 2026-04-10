@@ -1,21 +1,20 @@
 - name: News
-  # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
   # hide-desktop-navigation: true
   columns:
     - size: small
       widgets:
+        - type: clock
+          hour-format: 24h
+          timezones:
+            - timezone: America/Los_Angeles
+              label: LA
+            - timezone: Asia/Tokyo
+              label: Tokyo
+            - timezone: Europe/Paris
+              label: Paris
+
         - type: calendar
           first-day-of-week: monday
-
-        - type: rss
-          limit: 10
-          collapse-after: 3
-          cache: 12h
-          feeds:
-            - url: https://selfh.st/rss/
-              title: selfh.st
-            - url: https://www.motorsport.com/rss/f1/news/
-              title: Motorsport.com
 
         - type: twitch-channels
           channels:
@@ -26,22 +25,17 @@
 
     - size: full
       widgets:
-        - type: group
-          widgets:
-            - type: hacker-news
-            - type: lobsters
-
         - type: videos
           channels:
-              - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
-              - UCdU3K0pmvsuxcHFaI3aWKHw # Tech Flow
-              - UCjSEJkpGbcZhvo0lr-44X_w # Tech Hut
-              - UCcaTUtGzOiS4cqrgtcsHYWg # JvScholz
-              - UCUyeluBRhGPCW4rPe_UvBZQ # ThePrimeTime
-              - UCg6gPGh8HU2U01vaFCAsvmQ # ChrisTitusTechTips
-              - UCWqW23Ko6dbscptZYyQE-8A # ZipTieTuning
-              - UCUpt_5O1vYpWAGg77iNMQXA # ZipTieTech
-              - UCZTMvlskGKEC0ZDxHgSB_1g # Evan Monsma
+            - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
+            - UCdU3K0pmvsuxcHFaI3aWKHw # Tech Flow
+            - UCjSEJkpGbcZhvo0lr-44X_w # Tech Hut
+            - UCcaTUtGzOiS4cqrgtcsHYWg # JvScholz
+            - UCUyeluBRhGPCW4rPe_UvBZQ # ThePrimeTime
+            - UCg6gPGh8HU2U01vaFCAsvmQ # ChrisTitusTechTips
+            - UCWqW23Ko6dbscptZYyQE-8A # ZipTieTuning
+            - UCUpt_5O1vYpWAGg77iNMQXA # ZipTieTech
+            - UCZTMvlskGKEC0ZDxHgSB_1g # Evan Monsma
 
         - type: group
           widgets:
@@ -60,15 +54,22 @@
             - type: reddit
               subreddit: homelab
               show-thumbnails: true
+            - type: reddit
+              subreddit: linux
+              show-thumbnails: true
+            - type: reddit
+              subreddit: formula1
+              show-thumbnails: true
+            - type: reddit
+              subreddit: tennis
+              show-thumbnails: true
 
     - size: small
       widgets:
         - type: weather
           location: Cincinnati, United States
-          units: imperial # alternatively "imperial"
-          hour-format: 12h # alternatively "24h"
-          # Optionally hide the location from being displayed in the widget
-          # hide-location: true
+          units: imperial
+          hour-format: 12h
 
         - type: markets
           markets:
@@ -85,9 +86,6 @@
 
         - type: releases
           cache: 1d
-          # Without authentication the Github API allows for up to 60 requests per hour. You can create a
-          # read-only token from your Github account settings and use it here to increase the limit.
-          # token: ...
           repositories:
             - glanceapp/glance
             - ChrisTitusTech/winutil
