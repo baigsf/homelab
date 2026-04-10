@@ -1,4 +1,4 @@
-- name: Startpage
+- name: Dashboard
   width: slim
   hide-desktop-navigation: false
   center-vertically: true
