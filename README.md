@@ -1,10 +1,10 @@
-# Homelab
+# Albion Labs
 
 A personal homelab setup for self-hosting services and improving privacy/security.
 
 ## Current Services
 
-- **Glance** - System monitoring dashboard
+- **Glance** - News Dashboard with Startpage for quicklinks
 - **Uptime Kuma** - Self-hosted uptime monitoring with notifications when services go down
 - **Tailscale** - VPN for secure remote access
 - **NextDNS** - DNS-based ad blocking and security
