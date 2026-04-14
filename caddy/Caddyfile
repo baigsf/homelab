@@ -6,22 +6,10 @@ http://uptime.albionlabs.net {
 	reverse_proxy 192.168.1.61:3001
 }
 
-portainer.albionlabs.net {
-	tls internal
-
-	reverse_proxy https://127.0.0.1:9443 {
-		transport http {
-			tls_insecure_skip_verify
-		}
-	}
+http://portainer.albionlabs.net {
+	redir https://192.168.1.61:9443
 }
 
-pve.albionlabs.net {
-	tls internal
-
-	reverse_proxy https://192.168.1.32:8006 {
-		transport http {
-			tls_insecure_skip_verify
-		}
-	}
+http://pve.albionlabs.net {
+	redir https://192.168.1.32:8006
 }

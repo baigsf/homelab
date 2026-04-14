@@ -30,6 +30,10 @@
                   url: http://uptime.albionlabs.net
                 - title: NextDNS
                   url: https://my.nextdns.io
+                - title: Proxmox
+                  url: http://pve.albionlabs.net
+                - title: Portainer
+                  url: http://portainer.albionlabs.net
             - title: Entertainment
               links:
                 - title: YouTube
