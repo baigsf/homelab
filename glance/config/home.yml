@@ -4,7 +4,7 @@
     - size: small
       widgets:
         - type: clock
-          hour-format: 24h
+          hour-format: 12h
           timezones:
             - timezone: America/Los_Angeles
               label: LA
