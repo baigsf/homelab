@@ -1,18 +1,25 @@
 # Albion Labs
 
-A personal homelab setup for self-hosting services and improving privacy/security.
+A personal homelab for self-hosting services, improving privacy/security, and learning more about DevOps and infrastructure.
+
+This lab is mainly a testing and learning environment where I experiment with tools, deployments, virtualization, networking, and self-hosting.
 
 ## Current Services
 
-- **Glance** - News Dashboard with Startpage for quicklinks
-- **Uptime Kuma** - Self-hosted uptime monitoring with notifications when services go down
+- **Proxmox** - Virtualization platform for managing VMs and lab infrastructure
+- **Glance** - Dashboard and start page for news, monitoring, and quick links
+- **Uptime Kuma** - Self-hosted uptime monitoring with notifications
 - **Tailscale** - VPN for secure remote access
 - **NextDNS** - DNS-based ad blocking and security
 - **Jellyfin** - Self-hosted media server
 - **Portainer** - Docker container visualization and management
-- **MySpeed** - Self-hosted internet speed test
+- **MySpeed** - Self-hosted internet speed testing
+
 ## To-Do
 
 - [ ] **Nextcloud** - Self-hosted cloud storage and collaboration
 - [ ] **Obsidian Sync** - Self-hosted note synchronization
-- [ ] **HTTPS** - Enable HTTPS/TLS for most services
+- [ ] **HTTPS/TLS** - Enable HTTPS for most services
+- [ ] **Sandbox Development VM** - Dedicated VM for testing and development
+- [ ] **Proxmox High Availability** - Configure HA for better resilience
+- [ ] **Kubernetes Playground** - Small cluster for learning and experimentation
