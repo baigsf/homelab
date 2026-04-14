@@ -34,6 +34,8 @@
                   url: http://pve.albionlabs.net
                 - title: Portainer
                   url: http://portainer.albionlabs.net
+                - title: MySpeed
+                  url: http://speed.albionlabs.net
             - title: Entertainment
               links:
                 - title: YouTube

@@ -22,6 +22,7 @@
             - christitustech
             - shawncee
             - xqc
+            - caseoh_
 
     - size: full
       widgets:
@@ -84,10 +85,17 @@
             - symbol: MSFT
               name: Microsoft
 
-        - type: releases
-          cache: 1d
-          repositories:
-            - glanceapp/glance
-            - ChrisTitusTech/winutil
-            - jellyfin/jellyfin
-            - zen-browser/desktop
+        - type: bookmarks
+          groups:
+            - title: My Repos
+              links:
+                - title: Homelab
+                  url: https://github.com/baigsf/homelab
+                  icon: si:github
+                - title: Dotfiles
+                  url: https://github.com/baigsf/dotfiles
+                  icon: si:github
+                - title: School Programming Projects
+                  url: https://github.com/baigsf/school_programming_projects
+                  icon: si:github
+    

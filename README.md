@@ -10,9 +10,9 @@ A personal homelab setup for self-hosting services and improving privacy/securit
 - **NextDNS** - DNS-based ad blocking and security
 - **Jellyfin** - Self-hosted media server
 - **Portainer** - Docker container visualization and management
+- **MySpeed** - Self-hosted internet speed test
 ## To-Do
 
 - [ ] **Nextcloud** - Self-hosted cloud storage and collaboration
-- [ ] **Self-hosted Speedtest** - Internal internet speed testing
 - [ ] **Obsidian Sync** - Self-hosted note synchronization
 - [ ] **HTTPS** - Enable HTTPS/TLS for most services
