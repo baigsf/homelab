@@ -9,12 +9,10 @@ A personal homelab setup for self-hosting services and improving privacy/securit
 - **Tailscale** - VPN for secure remote access
 - **NextDNS** - DNS-based ad blocking and security
 - **Jellyfin** - Self-hosted media server
-
+- **Portainer** - Docker container visualization and management
 ## To-Do
 
 - [ ] **Nextcloud** - Self-hosted cloud storage and collaboration
 - [ ] **Self-hosted Speedtest** - Internal internet speed testing
 - [ ] **Obsidian Sync** - Self-hosted note synchronization
 - [ ] **HTTPS** - Enable HTTPS/TLS for most services
-- [ ] **Proxmox Integration** - Better Proxmox integration with Caddy reverse proxy
-- [ ] **Portainer** - Docker container visualization and management
