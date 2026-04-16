@@ -14,6 +14,7 @@ This lab is mainly a testing and learning environment where I experiment with to
 - **Jellyfin** - Self-hosted media server
 - **Portainer** - Docker container visualization and management
 - **MySpeed** - Self-hosted internet speed testing
+- **Yt_Dlp** - Docker container to easily download youtube videos with Yt_Dlp through a web interface
 
 ## To-Do
 
