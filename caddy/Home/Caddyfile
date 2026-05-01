@@ -1,0 +1,12 @@
+http://albionlabs.net {
+    reverse_proxy 192.168.4.193:8080
+}
+
+http://uptime.albionlabs.net {
+    reverse_proxy 192.168.4.193:3001
+}
+
+http://portainer.albionlabs.net {
+    redir https://192.168.4.193:9443
+}
+
