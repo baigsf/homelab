@@ -5,8 +5,21 @@
   columns:
     - size: full
       widgets:
-        - type: search
-          autofocus: false
+        - type: server-stats
+          servers:
+            - type: local
+              name: Albion Server
+
+        - type: monitor
+          cache: 30s
+          title: Services
+          sites:
+            - title: Jellyfin
+              url: http://jellyfin.albionlabs.net
+              icon: di:jellyfin
+            - title: Uptime Kuma
+              url: http://uptime.albionlabs.net
+              icon: di:uptime-kuma
 
         - type: bookmarks
           groups:
@@ -16,26 +29,18 @@
                   url: https://mail.google.com/mail/u/0/
                 - title: Proton
                   url: https://proton.me
-                - title: Github
-                  url: https://github.com/
                 - title: T3Chat
                   url: https://t3.chat
-            - title: Homelab
+
+            - title: Networking
               links:
-                - title: Unifi
-                  url: https://unifi.ui.com
                 - title: Tailscale
                   url: https://login.tailscale.com
-                - title: Uptime Kuma
-                  url: http://uptime.albionlabs.net
+                - title: Unifi
+                  url: https://unifi.ui.com
                 - title: NextDNS
                   url: https://my.nextdns.io
-                - title: Proxmox
-                  url: http://pve.albionlabs.net
-                - title: Portainer
-                  url: http://portainer.albionlabs.net
-                - title: MySpeed
-                  url: http://speed.albionlabs.net
+
             - title: Entertainment
               links:
                 - title: YouTube
@@ -48,9 +53,30 @@
                   url: https://f1tv.formula1.com/
                 - title: TV
                   url: https://thetvapp.to/
+
             - title: Social
               links:
                 - title: Twitter
                   url: https://twitter.com/
                 - title: Instagram
                   url: https://www.instagram.com/
+
+            - title: Homelab 
+              links:
+                - title: Uptime Kuma
+                  url: http://uptime.albionlabs.net
+                - title: Portainer
+                  url: http://portainer.albionlabs.net
+                - title: Proxmox
+                  url: http://pve.albionlabs.net
+                - title: MySpeed
+                  url: http://speed.albionlabs.net
+                - title: Jellyfin
+                  url: http://jellyfin.albionlabs.net
+
+            - title: DevOps
+              links:
+                -  title: Cloudflare
+                   url: https://www.cloudflare.com
+                -  title: Github
+                   url: https://www.github.com
