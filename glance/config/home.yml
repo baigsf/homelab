@@ -74,16 +74,16 @@
 
         - type: markets
           markets:
-            - symbol: SPY
-              name: S&P 500
+            - symbol: VOO
+              name: Vanguard S&P 500
             - symbol: BTC-USD
               name: Bitcoin
             - symbol: NVDA
               name: NVIDIA
             - symbol: AAPL
               name: Apple
-            - symbol: MSFT
-              name: Microsoft
+            - symbol: NET
+              name: Cloudflare
 
         - type: bookmarks
           groups:
