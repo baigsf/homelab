@@ -21,9 +21,6 @@ on:
       - "**/*.yaml"
   workflow_dispatch:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   compose-check:
     name: Validate Docker Compose Files
@@ -31,7 +28,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Validate all compose files
         run: |
