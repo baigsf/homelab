@@ -15,6 +15,9 @@ on:
       - "**/*.yaml"
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   yaml-lint:
     name: YAML Lint
@@ -29,7 +32,6 @@ jobs:
         with:
           config_data: |
             extends: default
-
             rules:
               document-start: disable
               truthy: disable
