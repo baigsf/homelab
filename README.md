@@ -4,13 +4,15 @@ A personal homelab for self-hosting services, improving privacy/security, and le
 
 This lab is mainly a testing and learning environment where I experiment with tools, deployments, virtualization, networking, and self-hosting.
 
-## Current Services
+## Networking Services
+- **Tailscale** - VPN for secure remote access
+- **NextDNS** - DNS-based ad blocking and security
+
+## Homelab Services
 
 - **Proxmox** - Virtualization platform for managing VMs and lab infrastructure
 - **Glance** - Dashboard and start page for news, monitoring, and quick links
 - **Uptime Kuma** - Self-hosted uptime monitoring with notifications
-- **Tailscale** - VPN for secure remote access
-- **NextDNS** - DNS-based ad blocking and security
 - **Jellyfin** - Self-hosted media server
 - **Portainer** - Docker container visualization and management
 - **MySpeed** - Self-hosted internet speed testing
