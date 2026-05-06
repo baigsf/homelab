@@ -4,98 +4,97 @@
     - size: small
       widgets:
         - type: clock
-          hour-format: 12h
+          hour-format: "12h"
           timezones:
-            - timezone: America/Los_Angeles
-              label: LA
-            - timezone: Asia/Tokyo
-              label: Tokyo
-            - timezone: Europe/Paris
-              label: Paris
+            - timezone: "America/Los_Angeles"
+              label: "LA"
+            - timezone: "Asia/Tokyo"
+              label: "Tokyo"
+            - timezone: "Europe/Paris"
+              label: "Paris"
 
         - type: calendar
-          first-day-of-week: monday
+          first-day-of-week: "monday"
 
         - type: twitch-channels
           channels:
-            - theprimeagen
-            - christitustech
-            - shawncee
-            - xqc
-            - caseoh_
+            - "theprimeagen"
+            - "christitustech"
+            - "shawncee"
+            - "xqc"
+            - "caseoh_"
 
     - size: full
       widgets:
         - type: videos
           channels:
-            - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
-            - UCdU3K0pmvsuxcHFaI3aWKHw # Tech Flow
-            - UCjSEJkpGbcZhvo0lr-44X_w # Tech Hut
-            - UCcaTUtGzOiS4cqrgtcsHYWg # JvScholz
-            - UCUyeluBRhGPCW4rPe_UvBZQ # ThePrimeTime
-            - UCg6gPGh8HU2U01vaFCAsvmQ # ChrisTitusTechTips
-            - UCWqW23Ko6dbscptZYyQE-8A # ZipTieTuning
-            - UCUpt_5O1vYpWAGg77iNMQXA # ZipTieTech
-            - UCZTMvlskGKEC0ZDxHgSB_1g # Evan Monsma
+            - "UCXuqSBlHAE6Xw-yeJA0Tunw"  # Linus Tech Tips
+            - "UCdU3K0pmvsuxcHFaI3aWKHw"  # Tech Flow
+            - "UCjSEJkpGbcZhvo0lr-44X_w"  # Tech Hut
+            - "UCcaTUtGzOiS4cqrgtcsHYWg"  # JvScholz
+            - "UCUyeluBRhGPCW4rPe_UvBZQ"  # ThePrimeTime
+            - "UCg6gPGh8HU2U01vaFCAsvmQ"  # ChrisTitusTechTips
+            - "UCWqW23Ko6dbscptZYyQE-8A"  # ZipTieTuning
+            - "UCUpt_5O1vYpWAGg77iNMQXA"  # ZipTieTech
+            - "UCZTMvlskGKEC0ZDxHgSB_1g"  # Evan Monsma
 
         - type: group
           widgets:
             - type: reddit
-              subreddit: technology
+              subreddit: "technology"
               show-thumbnails: true
             - type: reddit
-              subreddit: selfhosted
+              subreddit: "selfhosted"
               show-thumbnails: true
             - type: reddit
-              subreddit: worldnews
+              subreddit: "worldnews"
               show-thumbnails: true
             - type: reddit
-              subreddit: JDM
+              subreddit: "JDM"
               show-thumbnails: true
             - type: reddit
-              subreddit: homelab
+              subreddit: "homelab"
               show-thumbnails: true
             - type: reddit
-              subreddit: linux
+              subreddit: "linux"
               show-thumbnails: true
             - type: reddit
-              subreddit: formula1
+              subreddit: "formula1"
               show-thumbnails: true
             - type: reddit
-              subreddit: tennis
+              subreddit: "tennis"
               show-thumbnails: true
 
     - size: small
       widgets:
         - type: weather
-          location: Cincinnati, United States
-          units: imperial
-          hour-format: 12h
+          location: "Cincinnati, United States"
+          units: "imperial"
+          hour-format: "12h"
 
         - type: markets
           markets:
-            - symbol: VOO
-              name: Vanguard S&P 500
-            - symbol: BTC-USD
-              name: Bitcoin
-            - symbol: NVDA
-              name: NVIDIA
-            - symbol: AAPL
-              name: Apple
-            - symbol: NET
-              name: Cloudflare
+            - symbol: "VOO"
+              name: "Vanguard S&P 500"
+            - symbol: "BTC-USD"
+              name: "Bitcoin"
+            - symbol: "NVDA"
+              name: "NVIDIA"
+            - symbol: "AAPL"
+              name: "Apple"
+            - symbol: "NET"
+              name: "Cloudflare"
 
         - type: bookmarks
           groups:
-            - title: My Repos
+            - title: "My Repos"
               links:
-                - title: Homelab
-                  url: https://github.com/baigsf/homelab
-                  icon: si:github
-                - title: Dotfiles
-                  url: https://github.com/baigsf/dotfiles
-                  icon: si:github
-                - title: School Programming Projects
-                  url: https://github.com/baigsf/school_programming_projects
-                  icon: si:github
-    
+                - title: "Homelab"
+                  url: "https://github.com/baigsf/homelab"
+                  icon: "si:github"
+                - title: "Dotfiles"
+                  url: "https://github.com/baigsf/dotfiles"
+                  icon: "si:github"
+                - title: "School Programming Projects"
+                  url: "https://github.com/baigsf/school_programming_projects"
+                  icon: "si:github"

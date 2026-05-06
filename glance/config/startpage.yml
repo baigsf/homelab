@@ -17,6 +17,7 @@
             - title: Jellyfin
               url: http://jellyfin.albionlabs.net
               icon: di:jellyfin
+
             - title: Uptime Kuma
               url: http://uptime.albionlabs.net
               icon: di:uptime-kuma
@@ -27,8 +28,10 @@
               links:
                 - title: Gmail
                   url: https://mail.google.com/mail/u/0/
+
                 - title: Proton
                   url: https://proton.me
+
                 - title: T3Chat
                   url: https://t3.chat
 
@@ -36,8 +39,10 @@
               links:
                 - title: Tailscale
                   url: https://login.tailscale.com
+
                 - title: Unifi
                   url: https://unifi.ui.com
+
                 - title: NextDNS
                   url: https://my.nextdns.io
 
@@ -45,12 +50,16 @@
               links:
                 - title: YouTube
                   url: https://www.youtube.com/
+
                 - title: Prime Video
                   url: https://www.primevideo.com/
+
                 - title: Netflix
                   url: https://www.netflix.com/
+
                 - title: F1
                   url: https://f1tv.formula1.com/
+
                 - title: TV
                   url: https://thetvapp.to/
 
@@ -58,25 +67,31 @@
               links:
                 - title: Twitter
                   url: https://twitter.com/
+
                 - title: Instagram
                   url: https://www.instagram.com/
 
-            - title: Homelab 
+            - title: Homelab
               links:
                 - title: Uptime Kuma
                   url: http://uptime.albionlabs.net
+
                 - title: Portainer
                   url: http://portainer.albionlabs.net
+
                 - title: Proxmox
                   url: http://pve.albionlabs.net
+
                 - title: MySpeed
                   url: http://speed.albionlabs.net
+
                 - title: Jellyfin
                   url: http://jellyfin.albionlabs.net
 
             - title: DevOps
               links:
-                -  title: Cloudflare
-                   url: https://www.cloudflare.com
-                -  title: Github
-                   url: https://www.github.com
+                - title: CloudFlare
+                  url: https://www.cloudflare.com
+
+                - title: GitHub
+                  url: https://www.github.com
