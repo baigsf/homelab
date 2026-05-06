@@ -5,14 +5,16 @@ on:
     branches:
       - main
     paths:
-      - "**/*.yml"
-      - "**/*.yaml"
+      - "glance/**"
+      - "uptime-kuma/**"
+      - ".github/workflows/docker-check.yml"
   pull_request:
     branches:
       - main
     paths:
-      - "**/*.yml"
-      - "**/*.yaml"
+      - "glance/**"
+      - "uptime-kuma/**"
+      - ".github/workflows/docker-check.yml"
   workflow_dispatch:
 
 jobs:
@@ -27,5 +29,5 @@ jobs:
       - name: Validate Glance Docker Compose
         run: docker compose -f glance/docker-compose.yml config
 
-      - name: Validate Kuma Docker Compose
+      - name: Validate Uptime Kuma Docker Compose
         run: docker compose -f uptime-kuma/docker-compose.yml config
