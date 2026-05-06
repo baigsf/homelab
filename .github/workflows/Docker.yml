@@ -17,12 +17,15 @@ on:
 
 jobs:
   compose-check:
-    name: Validate Docker Compose
+    name: Validate Docker Compose Files
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate Compose config
-        run: docker compose config
+      - name: Validate Glance Docker Compose
+        run: docker compose -f glance/docker-compose.yml config
+
+      - name: Validate Kuma Docker Compose
+        run: docker compose -f uptime-kuma/docker-compose.yml config
