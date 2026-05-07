@@ -14,13 +14,19 @@
           cache: 30s
           title: Services
           sites:
-            - title: Jellyfin
-              url: http://jellyfin.albionlabs.net
-              icon: di:jellyfin
-
             - title: Uptime Kuma
               url: http://uptime.albionlabs.net
               icon: di:uptime-kuma
+
+            - title: Proxmox
+              url: http://pve.albionlabs.net
+              icon: di:proxmox
+              allow-insecure: true
+
+            - title: Portainer
+              url: http://portainer.albionlabs.net
+              icon: di:portainer
+              allow-insecure: true
 
         - type: bookmarks
           groups:
@@ -90,7 +96,7 @@
 
             - title: DevOps
               links:
-                - title: CloudFlare
+                - title: Cloudflare
                   url: https://www.cloudflare.com
 
                 - title: GitHub
