@@ -6,7 +6,15 @@ http://uptime.albionlabs.net {
     reverse_proxy 192.168.4.193:3001
 }
 
+http://jellyfin.albionlabs.net {
+    reverse_proxy 192.168.4.183:8096
+}
+
 http://portainer.albionlabs.net {
     redir https://192.168.4.193:9443
+}
+
+http://pve.albionlabs.net {
+    redir https://192.168.4.199:8006
 }
 
