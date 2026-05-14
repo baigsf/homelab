@@ -2,9 +2,39 @@ server:
   assets-path: /app/assets
 
 theme:
-  # Note: assets are cached by the browser, changes to the CSS file
-  # will not be reflected until the browser cache is cleared (Ctrl+F5)
-  custom-css-file: /assets/user.css
+ presets:
+    tucan:
+      background-color: 50 1 6
+      primary-color: 24 97 58
+      negative-color: 209 88 54
+
+    neonpink:
+      background-color: 240 27 11
+      contrast-multiplier: 1.5
+      primary-color: 321 100 71
+      positive-color: 165 78 51
+      negative-color: 360 100 71
+    
+    black:
+      background-color: 0 0 6
+      primary-color: 0 0 92
+      positive-color: 0 0 75
+      negative-color: 0 0 55
+      contrast-multiplier: 1.2
+    
+    gruvpink:
+      background-color: 0 0 8
+      primary-color: 338 58 73
+      positive-color: 42 52 62
+      negative-color: 350 50 64
+      contrast-multiplier: 1.2
+
+    darkpurple:
+      background-color: 0 0 7
+      primary-color: 270 55 70
+      positive-color: 270 40 60
+      negative-color: 270 45 52
+      contrast-multiplier: 1.2
 
 pages:
   # It's not necessary to create a new file for each page and include it, you can simply

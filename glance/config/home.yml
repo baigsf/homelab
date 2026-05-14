@@ -44,16 +44,10 @@
               subreddit: "technology"
               show-thumbnails: true
             - type: reddit
-              subreddit: "selfhosted"
-              show-thumbnails: true
-            - type: reddit
-              subreddit: "worldnews"
-              show-thumbnails: true
-            - type: reddit
-              subreddit: "JDM"
-              show-thumbnails: true
-            - type: reddit
               subreddit: "homelab"
+              show-thumbnails: true
+            - type: reddit
+              subreddit: "minilab"
               show-thumbnails: true
             - type: reddit
               subreddit: "linux"
@@ -63,6 +57,12 @@
               show-thumbnails: true
             - type: reddit
               subreddit: "tennis"
+              show-thumbnails: true
+            - type: reddit
+              subreddit: "blackcats"
+              show-thumbnails: true
+            - type: reddit
+              subreddit: "worldnews"
               show-thumbnails: true
 
     - size: small
