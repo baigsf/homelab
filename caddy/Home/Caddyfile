@@ -14,6 +14,10 @@ http://ytdlp.albionlabs.net {
     reverse_proxy 192.168.4.204:3033
 }
 
+http://speed.albionlabs.net {
+    reverse_proxy 192.168.4.201:5216
+}
+
 http://portainer.albionlabs.net {
     redir https://192.168.4.193:9443
 }
