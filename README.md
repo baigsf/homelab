@@ -17,6 +17,7 @@ This lab is mainly a testing and learning environment where I experiment with to
 - **Portainer** - Docker container visualization and management
 - **MySpeed** - Self-hosted internet speed testing
 - **Yt_Dlp** - Docker container to easily download youtube videos with Yt_Dlp through a web interface
+- **Caddy** - Reverse proxy server that manages access to services and makes it easy to add domains and subdomains with automatic HTTPS
 
 ## To-Do
 
