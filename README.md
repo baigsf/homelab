@@ -1,5 +1,9 @@
 # Albion Labs
 
+<p align="center">
+  <img src="albion-homelab-logo.png" alt="Albion Labs Logo" width="200">
+</p>
+
 A personal homelab for self-hosting services, improving privacy/security,
 and learning more about DevOps and infrastructure.
 
