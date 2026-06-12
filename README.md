@@ -15,6 +15,7 @@ This lab is mainly a testing and learning environment where I experiment with to
 - **Uptime Kuma** - Self-hosted uptime monitoring with notifications
 - **Jellyfin** - Self-hosted media server
 - **Portainer** - Docker container visualization and management
+- **Dozzle** - Docker container logging
 - **MySpeed** - Self-hosted internet speed testing
 - **Yt_Dlp** - Docker container to easily download youtube videos with Yt_Dlp through a web interface
 - **Caddy** - Reverse proxy for domains and subdomains with automatic HTTPS
