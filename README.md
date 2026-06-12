@@ -1,7 +1,7 @@
-# Albion Labs
-
 <p align="center">
   <img src="albion-homelab-logo.png" alt="Albion Labs Logo" width="200">
+  <br>
+  <h1>Albion Labs</h1>
 </p>
 
 A personal homelab for self-hosting services, improving privacy/security,
