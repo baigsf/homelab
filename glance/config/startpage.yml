@@ -88,6 +88,8 @@
                   url: http://jellyfin.albionlabs.net
                 - title: Yt-Dlp
                   url: http://ytdlp.albionlabs.net
+                - title: Dozzle
+                  url: http://dozzle.albionlabs.net
 
             - title: DevOps
               links:

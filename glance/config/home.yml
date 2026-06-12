@@ -84,17 +84,8 @@
               name: "Apple"
             - symbol: "NET"
               name: "Cloudflare"
+            - symbol: "INTC"
+              name: "Intel"
+            - symbol: "AMD"
+              name: "AMD"
 
-        - type: bookmarks
-          groups:
-            - title: "My Repos"
-              links:
-                - title: "Homelab"
-                  url: "https://github.com/baigsf/homelab"
-                  icon: "si:github"
-                - title: "Dotfiles"
-                  url: "https://github.com/baigsf/dotfiles"
-                  icon: "si:github"
-                - title: "School Programming Projects"
-                  url: "https://github.com/baigsf/school_programming_projects"
-                  icon: "si:github"
