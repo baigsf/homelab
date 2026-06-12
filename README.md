@@ -1,7 +1,7 @@
-<p align="center">
+<div align="center">
   <img src="albion-homelab-logo.png" alt="Albion Labs Logo" width="200">
-  <br>
-</p>
+  <h1>Albion Labs</h1>
+</div>
 
 A personal homelab for self-hosting services, improving privacy/security,
 and learning more about DevOps and infrastructure.
