@@ -1,8 +1,10 @@
 # Albion Labs
 
-A personal homelab for self-hosting services, improving privacy/security, and learning more about DevOps and infrastructure.
+A personal homelab for self-hosting services, improving privacy/security,
+and learning more about DevOps and infrastructure.
 
-This lab is mainly a testing and learning environment where I experiment with tools, deployments, virtualization, networking, and self-hosting.
+This lab is mainly a testing and learning environment where I experiment with
+tools, deployments, virtualization, networking, and self-hosting.
 
 ## Networking Services
 - **Tailscale** - VPN for secure remote access
@@ -10,15 +12,22 @@ This lab is mainly a testing and learning environment where I experiment with to
 
 ## Homelab Services
 
-- **Proxmox** - Virtualization platform for managing VMs and lab infrastructure
+### Infrastructure
+- **Proxmox** - Virtualization platform for managing VMs and lab
+  infrastructure
+- **Caddy** - Reverse proxy for domains and subdomains with automatic HTTPS
+
+### Management and Monitoring
 - **Glance** - Dashboard and start page for news, monitoring, and quick links
 - **Uptime Kuma** - Self-hosted uptime monitoring with notifications
-- **Jellyfin** - Self-hosted media server
 - **Portainer** - Docker container visualization and management
 - **Dozzle** - Docker container logging
+
+### Media and Utilities
+- **Jellyfin** - Self-hosted media server
 - **MySpeed** - Self-hosted internet speed testing
-- **Yt_Dlp** - Docker container to easily download youtube videos with Yt_Dlp through a web interface
-- **Caddy** - Reverse proxy for domains and subdomains with automatic HTTPS
+- **Yt_Dlp** - Docker container to easily download YouTube videos with Yt_Dlp
+  through a web interface
 
 ## To-Do
 
