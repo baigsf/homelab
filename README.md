@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="albion-homelab-logo.png" alt="Albion Labs Logo" width="200">
+  <img src="albionlabs-logo.png" alt="Albion Labs Logo" width="200">
   <h1>Albion Labs</h1>
 </div>
 
