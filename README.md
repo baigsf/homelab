@@ -1,6 +1,6 @@
 <div align="center">
   <img src="albion-homelab-logo.png" alt="Albion Labs Logo" width="200">
-  <h1>Albion Home Lab</h1>
+  <h1>Albion Labs</h1>
 </div>
 
 A personal homelab for self-hosting services, improving privacy/security,
