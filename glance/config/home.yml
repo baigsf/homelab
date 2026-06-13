@@ -18,12 +18,11 @@
 
         - type: twitch-channels
           channels:
+            - "shawncee"
+            - "caseoh_"
             - "theprimeagen"
             - "christitustech"
-            - "shawncee"
-            - "xqc"
-            - "caseoh_"
-
+            
     - size: full
       widgets:
         - type: videos
