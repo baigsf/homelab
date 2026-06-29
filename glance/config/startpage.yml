@@ -15,12 +15,14 @@
           title: Services
           sites:
             - title: Uptime Kuma
-              url: http://uptime.albionlabs.net
+              url: https://uptime.albionlabs.net
               icon: di:uptime-kuma
+              allow-insecure: true
 
             - title: Dozzle
-              url: http://dozzle.albionlabs.net
+              url: https://dozzle.albionlabs.net
               icon: di:dozzle
+              allow-insecure: true
 
             - title: Proxmox
               url: http://pve.albionlabs.net
@@ -28,8 +30,13 @@
               allow-insecure: true
 
             - title: Portainer
-              url: http://portainer.albionlabs.net
+              url: https://portainer.albionlabs.net
               icon: di:portainer
+              allow-insecure: true
+
+            - title: Jellyfin
+              url: https://jellyfin.albionlabs.net
+              icon: di:jellyfin
               allow-insecure: true
 
     - size: full
@@ -53,6 +60,8 @@
                   url: https://unifi.ui.com
                 - title: NextDNS
                   url: https://my.nextdns.io
+                - title: NPM
+                  url: https://npm.albionlabs.net
 
             - title: Entertainment
               links:
