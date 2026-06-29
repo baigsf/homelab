@@ -18,7 +18,7 @@ tools, deployments, virtualization, networking, and self-hosting.
 ### Infrastructure
 - **Proxmox** - Virtualization platform for managing VMs and lab
   infrastructure
-- **Caddy** - Reverse proxy for domains and subdomains with automatic HTTPS
+- **Nginx Proxy Manager** - Reverse proxy for domains and subdomains with automatic HTTPS
 
 ### Management and Monitoring
 - **Glance** - Dashboard and start page for news, monitoring, and quick links
@@ -36,7 +36,6 @@ tools, deployments, virtualization, networking, and self-hosting.
 
 - [ ] **Nextcloud** - Self-hosted cloud storage and collaboration
 - [ ] **Obsidian Sync** - Self-hosted note synchronization
-- [ ] **HTTPS/TLS** - Enable HTTPS for most services
 - [ ] **Sandbox Development VM** - Dedicated VM for testing and development
 - [ ] **Proxmox High Availability** - Configure HA for better resilience
 - [ ] **Kubernetes Playground** - Small cluster for learning and experimentation
