@@ -71,11 +71,15 @@
                   url: https://www.primevideo.com/
                 - title: Netflix
                   url: https://www.netflix.com/
+                - title: Paramount+
+                  url: https://paramountplus.com 
+                - title: HBO Max
+                  url: https://hbomax.com  
                 - title: F1
                   url: https://f1tv.formula1.com/
                 - title: TV
-                  url: https://thetvapp.to/
-
+                  url: https://thetvapptv.com/
+                  
             - title: Social
               links:
                 - title: Twitter
