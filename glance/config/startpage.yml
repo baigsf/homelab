@@ -56,10 +56,10 @@
               links:
                 - title: Tailscale
                   url: https://login.tailscale.com
-                - title: Unifi
-                  url: https://unifi.ui.com
                 - title: NextDNS
                   url: https://my.nextdns.io
+                - title: Unifi
+                  url: https://unifi.ui.com
                 - title: NPM
                   url: https://npm.albionlabs.net
 
@@ -82,10 +82,10 @@
                   
             - title: Social
               links:
-                - title: Twitter
-                  url: https://twitter.com/
                 - title: Instagram
                   url: https://www.instagram.com/
+                - title: Twitter
+                  url: https://twitter.com/
 
             - title: Homelab
               links:
