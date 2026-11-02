@@ -1,0 +1,22 @@
+services:
+  ws4kp:
+    image: ghcr.io/netbymatt/ws4kp:8.0.1@sha256:9a05b6d580b5c43c4956a10a2acfe8ac2b0c2fda0974b06a94fee8167ead5f2f
+    container_name: ws4kp
+    ports:
+      - 3000:8080
+    restart: unless-stopped
+
+  ws4channels:
+    image: ghcr.io/rice9797/ws4channels@sha256:a448e73568a750d952185e72e7b4c8e18de05a21d8d2b09c70c62a7fe3cf2e39
+    container_name: ws4channels
+    depends_on: [ws4kp]
+    ports:
+      - 9798:9798
+    environment:
+      ZIP_CODE: "45039"
+      WS4KP_HOST: "ws4kp"   # <--- Change this to the container name!
+      WS4KP_PORT: "8080"    # <--- Internal container port
+      FRAME_RATE: "2"
+    mem_limit: 768m
+    cpus: 1.5
+    restart: unless-stopped
