@@ -33,7 +33,7 @@ tools, deployments, virtualization, networking, and self-hosting.
   through a web interface
 
 ## To-Do
-
+- [x] **HTTPS For Every Service** - HTTPS for all homelab services
 - [ ] **Nextcloud** - Self-hosted cloud storage and collaboration
 - [ ] **Obsidian Sync** - Self-hosted note synchronization
 - [ ] **Sandbox Development VM** - Dedicated VM for testing and development
